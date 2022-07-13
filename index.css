@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500;1,700&display=swap');
 
 
 * {
@@ -9,6 +9,7 @@
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 .logo {
@@ -47,23 +48,101 @@
 
 }
 
-.section {
+.pokedex {
+   
+    font-family: 'Roboto';
+    font-style:normal;
+    font-size: 20px;
+    font-weight: 400;
+    color: #919191;
+    margin-bottom: 26px;
+    margin-top: 26px;
+    margin-left: 16px;
+    margin-right: 726px;
+}
+
+.container {
     width: 1283px;
     height: 176px;
     left: 1px;
     top: 223px;
     background: #313131;
+    display: inline-block;
+    
+
 }
 
-h2 {
+.search-container {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 26px;
     line-height: 30px;
-    color: #919191;
-
+    color: #FFFFFF;
+    padding-top: 48px;
+    padding-left: 233px;
+    padding-bottom: 48px;
+    padding-right: 755px;
 }
 
 .imagens {
     margin-left: 218px;
     margin-right: 218px;
+}
+
+.message {
+    background: #4DAD5B;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+label {
+    width: 199px;
+    height: 30px;
+    left: 16px;
+    top: 48px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #FFFFFF;
+    
+}
+
+
+input {
+    box-sizing: border-box;
+    width: 295px;
+    height: 40px;
+    left: 16px;
+    top: 88px;
+    background: #FFFFFF;
+    border: 2px solid #616161;
+    border-radius: 4px;
+ 
+}
+
+button {
+    Width: 40px;
+    Height: 40px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    left: 327px;
+    top: 88px;
+    background: #EE6B2F;
+    border-radius: 4px;
+}
+
+.message-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }

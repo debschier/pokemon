@@ -11,7 +11,7 @@
 <body>
 
     <header class="header">
-      <nav class="container">
+      <nav class="cabecalho">
         <img src="img/logo.png" alt="" class="logoPokemon">
 
             <ul class="nav-links">
@@ -29,14 +29,25 @@
       <div class="pokedex">
           <h1>Pokédex</h1>
       </div>
-      <section class="box">
+      <div class="container">
+        
+        <div class="search-container"> 
          
-          <h2>Search for a Pokemon by name or using its National Pokedex Number</h2>
           <form action="/nameornumber" method="post">
                 <label for="name">Name or Number</label>
+            </div>
                 <input type="text" id="name" />
-                <button type="submit" class="btn-submit">Buscar</button>
-          </section>
+                <button type="submit"><img src="./img/Vector.png" alt=""  class="btn-submit"></button>
+                
+            </div>
+           
+        </div>
+        <div class="message-container">
+        <div class="message">
+            <h2>Search for a Pokemon by name or using its National Pokedex Number</h2>
+        </div>
+            
+        </div>
            
         </form>
       
