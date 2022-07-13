@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    width: 87.16px;
+    height: 32px;
+    left: 198px;
+    top: 8px;
+}
+
+
+.nav-links {
+    color: #464646;
+    list-style: none;
+    display: flex;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 39px 35px 39px;
+
+}
+
+.nav-links li {
+    list-style: none;
+    margin-right: 20px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #464646;
+
+}
+
+.section {
+    width: 1283px;
+    height: 176px;
+    left: 1px;
+    top: 223px;
+    background: #313131;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #919191;
+
+}
+
+.imagens {
+    margin-left: 218px;
+    margin-right: 218px;
+}
